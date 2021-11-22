@@ -1,0 +1,35 @@
+:root{
+    --cor-padrao: white;
+}
+body{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+.quadros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin-top: 116px;
+}
+.quadro{
+    position: relative;
+}
+.quadro img{
+    width: 335.64px;
+    height: 432px;
+}
+.quadro h2{
+    position: absolute;
+    top: 342px;
+    left: 20px;
+    color: var(--cor-padrao);
+    font-size: 30px; 
+    font-weight: 700;   
+}
+.quadro p{
+    position: absolute;
+    top: 381px;
+    left: 20px;
+    color: var(--cor-padrao);
+    font-size: 17px;
+}
