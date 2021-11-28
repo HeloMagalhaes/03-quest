@@ -15,6 +15,7 @@ body{
     position: relative;
 }
 .quadro img{
+    background-size: cover;
     width: 335.64px;
     height: 432px;
 }

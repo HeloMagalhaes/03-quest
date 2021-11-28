@@ -4,10 +4,10 @@
 }
 body{
     max-width: 1440px;
+    margin: 0 auto;
 }
 .painel{
     margin: 50px auto;
-    display: grid;
     width: 656px;
     height: 368px;
     grid-template-columns: 326px 270px;
@@ -50,4 +50,9 @@ body{
     margin-bottom: 5px;
 }
 
+@media(min-width: 1200px){
+    .painel{
+        display: grid;
+    } 
+}
 
