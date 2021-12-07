@@ -1,12 +1,13 @@
 :root{
     --tamanho-de-fonte-titulo: 14px;
-    --tamanho-de-fonte-descrição: 11px;
+    --tamanho-de-fonte-descricao: 11px;
 }
 body{
     max-width: 1440px;
     margin: 0 auto;
 }
 .painel{
+    display: grid;
     margin: 50px auto;
     width: 656px;
     height: 368px;
@@ -22,7 +23,7 @@ body{
     margin-left: 4px;
 }
 .painel p{
-    font-size: var(--tamanho-de-fonte-descrição);
+    font-size: var(--tamanho-de-fonte-descricao);
     font-weight: 300;
     height: 13px;
 }
